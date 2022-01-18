@@ -1,0 +1,75 @@
+body {
+    text-align: center;
+    font-family: monospace;
+    font-size:  larger;
+    margin:     0;
+}
+
+header {
+    background-color: #99544D;
+}
+
+header p {
+    font-family:    'bakso_sapiregular';
+    font-size:      25px;
+    margin-top:     0;
+    padding-bottom: 75px;
+}
+
+header h1 {
+    margin-top:     0;
+    margin-bottom:  0;
+    padding:        75px 0 0 0;
+    font-family:    'manga_templeregular';
+    font-size:      55px;
+}
+
+
+/* Tarjeta MICRODATA */
+
+#microdata {
+    width:          33%;
+    margin:         35px auto 0 auto;
+    border:         1px solid black;
+    border-radius:  5px;
+    padding:        25px;
+}
+
+#microdata h2 {
+    font-family:    'manga_templeregular';
+    font-size:      35px;
+}
+
+#microdata h3 {
+    font-family:    'bakso_sapiregular';
+    font-size:      25px;
+}
+
+#microdata a {
+    text-decoration: none;
+    color: black;
+}
+
+#microdata a:hover {
+    font-size: x-large;
+}
+
+
+/* Seccion LYRICS */
+
+#lyrics {
+    width: 33%;
+    margin: 0 auto;
+    margin-top: 35px;
+    border:         1px solid black;
+    border-radius:  5px;
+    padding:        25px;
+}
+
+#lyrics p {
+    margin-top:     75px;
+}
+    
+#lyrics p:nth-child(1) {
+    margin-top: 35px;
+}
